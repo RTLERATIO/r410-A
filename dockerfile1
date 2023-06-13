@@ -1,0 +1,5 @@
+FROM debian:11
+RUN apt-get upgrade && apt-get update -y
+RUN apt-get install -y default-mysql-client
+CMD bash
+  
